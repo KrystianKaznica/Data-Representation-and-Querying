@@ -1,4 +1,4 @@
-import BookItem from './bookItem';
+import BookItem from './bookItem'; /* Imports BookItem from bookItem component */
 
 function Books(props){
     return props.myBooks.map(

@@ -1,7 +1,8 @@
-import Books from './books';
+import Books from './books'; /*Imports Books from books component*/
 
 function Read(){
 
+    {/* Creates data constant for storing of data array - Books*/}
     const data = [
 
         {
@@ -41,7 +42,7 @@ function Read(){
 
     ]
         
-
+    {/* Returns function with above data */}
     return(
         <div>
             <h2>Hello from my Read component.</h2><br></br>

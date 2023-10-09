@@ -1,10 +1,11 @@
-import Card from 'react-bootstrap/Card';
+import Card from 'react-bootstrap/Card'; /* Imports Card from Bootstrap*/
 
 function BookItem(props){
 
     return(
         <div>
-
+        
+        {/* Creates Card*/}
         <Card style={{width: '300px', padding: '10px', position: 'relative', marginLeft: '45%', marginTop: '20px'}}>
         <Card.Title>{props.mybook.title}</Card.Title>
             <Card.Img src={props.mybook.thumbnailUrl} />
