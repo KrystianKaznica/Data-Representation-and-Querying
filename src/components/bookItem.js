@@ -5,7 +5,7 @@ function BookItem(props){
     return(
         <div>
         
-        {/* Creates Card*/}
+        {/* Creates Card to display book items by text array*/}
         <Card style={{width: '300px', padding: '10px', position: 'relative', marginLeft: '45%', marginTop: '20px'}}>
         <Card.Title>{props.mybook.title}</Card.Title>
             <Card.Img src={props.mybook.thumbnailUrl} />

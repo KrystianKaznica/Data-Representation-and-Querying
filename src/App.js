@@ -14,6 +14,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"; /* Imports Rout
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -37,8 +38,6 @@ function App() {
       <Route path='/read' element={<><Header/><Read/></>}/>
       <Route path='/create' element={<><Footer/><Create/></>}></Route>
     </Routes>
-      
-      {/* NOTE TO SELF */}
     
     
     </div>
