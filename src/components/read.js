@@ -8,10 +8,10 @@ function Read(){
     const [data, setData] = useState([]);
 
     useEffect(()=>{
-        axios.get('https://jsonblob.com/api/jsonblob/1161593332966481920')
+        axios.get('http://localhost:4000/api/books')
         .then(
             (response)=>{
-                setData(response.data.books);
+                setData(response.data.myBooks);
             }
         )
         .catch(
